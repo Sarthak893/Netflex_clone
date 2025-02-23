@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-image: url("netflix.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vw);
+    position: relative;
+
+}
+.main-box{
+    background-color: black;
+    opacity: 0.44;
+    height: 90vh;
+    width:100%;
+    position: absolute;
+    top: 0;
+}
+
+
+
+nav{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 60px;
+    position: relative;
+    z-index: 10;
+    margin-left: 10%;
+     
+
+}
+.btn{
+    position: relative;
+    z-index: 10;
+}
+.text{
+    z-index: 15;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 50px;
+    top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    opacity: 0.9;
+
+}
+#no {
+    z-index: 15;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    font-size: 17px;
+    font-weight:500;
+
+}
+#yes{
+    z-index: 15;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    font-size: 17px;
+    font-weight:500;
+
+}
+.email{
+    color:white;
+    position: relative;
+    z-index: 15;
+    top: 280px;display: flex;
+    justify-content: center;
+    padding-right: 40px;
+    
+
+
+
+}
+.email button {
+    background-color: red;
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    border-radius:0px 8px 8px 0px;
+    margin-left: 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+.email input{
+    width: 25rem;
+    margin-right: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    margin-left: 5px;
+    border-radius: 3px;
+    height: 2rem;
+    width: 4rem;
+    font-weight: 567 ;
+
+}
+.btn select{
+    background-color: transparent;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+}
+span img{
+    
+    height: 4rem;
+    z-index: 30;
+    display: flex;
+}
+.emai{
+    color:white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+    
+
+
+
+}
+.emai button {
+    background-color: red;
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    border-radius:0px 8px 8px 0px;
+    margin-left: 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+.emai input{
+    width: 25rem;
+    margin-right: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* Main scrollable container */
+.menu-container {
+    width: 90%; /* Full width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+     /* Prevent items from wrapping */
+     /* Hide scrollbar in Firefox */
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(27, 26, 26,0.877);
+}
+
+/* Hide scrollbar for WebKit browsers */
+.menu-container::-webkit-scrollbar {
+    display: none;
+    background-color: black;
+}
+
+/* Inner container to hold menu items */
+.menu-items {
+    display: flex; /* Arrange items in a row */
+    gap: 20px; /* Space between items */
+    padding: 10px;
+    background-color: rgba(27, 26, 26, 0.877);
+}
+
+/* Individual menu item */
+.menu-item {
+    width: 220px; /* Set fixed width */
+    height: 320px; /* Set fixed height */
+    background: #fff;
+    border-radius: 10px;
+    
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Image styling */
+.menu-item img {
+    width: 100%; /* Make image fill container */
+    height: 85%; /* Set height to maintain aspect ratio */
+    object-fit: cover;
+    margin-left: 18px;
+    
+}
+
+/* Text styling */
+.menu-item span {
+    font-size: 36px;
+    font-weight: 900;
+    color:rgb(169, 185, 201);
+    display: flex;
+    margin-top: 200px;
+    position: relative;
+    z-index: 20;
+    left: -100px;
+    
+
+}
+main,footer{
+    background-color: rgba(27, 26, 26, 0.877);
+    color: white;
+}
+.more{
+    display: flex;
+    background-color: rgb(27, 26, 26,0.877);
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+}
+.scroll{
+    height: 40vh;
+    margin:30px ;
+    border-radius: 20px;
+
+    width: 20vw;
+    background-color: #908f8d
+    ;
+}
+#e{
+    font-size: 20px;
+    margin-top: 30px    ;
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+#f{
+    font-size: medium;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+#x{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#y{
+    width: 90%;
+    background-color: rgb(27, 26, 26,0.877);
+    height: 50px;
+    font-size: 20px;
+    
+    margin: 0px 50px 20px 20px;
+
+}
+#faq p{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+footer{
+    font-size: 15px;
+}
